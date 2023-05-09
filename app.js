@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser')
 
 const stuffRoutes = require('./routes/stuff')
-const userRoutes = require('./routes.user')
+const userRoutes = require('./routes/user')
 
 const app = express()
 mongoose.connect('mongodb+srv://user:user@cluster0.lpspbwo.mongodb.net/?retryWrites=true&w=majority',
